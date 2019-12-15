@@ -1,0 +1,33 @@
+html {
+    height: 100%;
+}
+
+body {
+    /*css gradient generator*/
+    background-size: cover;
+    background: linear-gradient(225deg, #3cff0086 0%, #008552 100%);
+
+    /*Style the text*/
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+#money {
+    font-size: 5em;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 300;
+    text-align: center;
+}
